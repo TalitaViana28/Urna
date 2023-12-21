@@ -21,9 +21,9 @@ function comecarEtapa() {
 
   for (let i = 0; i < etapa.numeros; i++) {
     if (i === 0) {
-      numeroHtml += '<div class="numero pisca"></div>';
+      numeroHtml += `<div class="numero pisca"></div>`;
     } else {
-      numeroHtml += '<div class="numero"></div>';
+      numeroHtml += `<div class="numero"></div>`;
     }
   }
   seuVotoPara.style.display = 'none';
