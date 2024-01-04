@@ -18,7 +18,7 @@ header {
 
 .slider {
   flex:1;
-  overflow: hidden;
+  overflow:hidden;
 }
 
 .slider-width {
